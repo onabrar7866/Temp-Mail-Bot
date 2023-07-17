@@ -7,7 +7,7 @@ import logging
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"""
 Hello {update.effective_user.first_name}
-Welcome to @FakeMaiilRobot.
+Welcome to @tempmail_ttbot.
 """, reply_markup=buttons)
 
 async def query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
